@@ -107,17 +107,30 @@ img {
 }
 
 #imgage1 {
-    transform: translate(-50%, -50%) rotate(0deg);
+    transform: translate(-50%, -50%) rotate(-20deg);
 }
 
 #imgage2 {
-    transform: translate(-50%, -50%) rotate(10deg);
+    transform: translate(-50%, -50%) rotate(-10deg);
 }
 
 #imgage3 {
-    transform: translate(-50%, -50%) rotate(15deg);
+    transform: translate(-50%, -50%) rotate(-15deg);
 }
 
 #imgage4 {
-    transform: translate(-50%, -50%) rotate(20deg);
+    transform: translate(-50%, -50%) rotate(0deg);
+}
+
+.footer {
+    position: absolute;
+    top: 92%;
+    left: 50%;
+}
+.footer #down-arrow {
+    border: 1px solid black;
+    padding: 28px;
+    height: 29px;
+    border-radius: 65px;
+    cursor: pointer;
 }
