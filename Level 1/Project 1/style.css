@@ -12,7 +12,7 @@ body {
 .nav-bar {
     width: 97vw;
     height: 4rem;
-    /* border: 5px solid; */
+  
     margin-top: 2px;
     display: flex;
     justify-content: space-between;
